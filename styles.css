@@ -1,0 +1,27 @@
+html {
+    background: url(images/field.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.content {
+    border-radius: 25px;
+    background-color: rgba(255,255,255,.4);
+    height: 50%;
+
+    width: 50%;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.icon {
+    background-image: url(profile.jpg);
+}
+
+.name {
+    text-align: center;
+}
+
+.blurb {
+
+}
