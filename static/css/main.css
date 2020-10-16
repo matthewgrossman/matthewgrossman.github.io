@@ -1,5 +1,5 @@
 /* most css taken from https://jgthms.com/web-design-in-4-minutes/ */
-@import 'https://fonts.googleapis.com/css?family=Roboto|Avenir';
+@import 'https://fonts.googleapis.com/css?family=Roboto|Commissioner';
 
 body {
     margin: 0px;
@@ -49,7 +49,7 @@ header h1 {
 
 header h1,
 header h4 {
-    font-family: "Avenir", sans-serif;
+    font-family: "Commissioner", sans-serif;
     color: white;
 }
 
