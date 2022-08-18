@@ -1,20 +1,27 @@
 /* most css taken from https://jgthms.com/web-design-in-4-minutes/ */
-@import 'https://fonts.googleapis.com/css?family=Roboto|Commissioner';
+
+.icon {
+    width: 1em;
+    height:1em;
+    padding: .25em;
+    vertical-align: -.140em;
+    fill: currentColor;
+    color: white;
+}
+img {
+  border-radius: 50%;
+  text-align: center;
+}
 
 body {
     margin: 0px;
-    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-family: sans-serif;
 }
 main {
     margin: 0 auto;
     max-width: 50rem;
     line-height: 1.5;
     padding: 4rem 1rem;
-}
-
-h3 {
-    margin-top: 1rem;
-    padding-top: 1rem;
 }
 
 main a {
@@ -41,7 +48,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #333;
-  padding: 2rem;
+  padding: 1rem;
   text-align: center;
 }
 
@@ -59,7 +66,7 @@ header h1 {
 
 header h1,
 header h4 {
-    font-family: "Commissioner", sans-serif;
+    font-family: sans-serif;
     color: white;
 }
 
