@@ -1,0 +1,15 @@
+.md-grid {
+  max-width: 720px; 
+}
+
+.round {
+  border-radius: 50%
+}
+
+.centered {
+  text-align: center;
+  display: block;
+  margin: auto;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+}
