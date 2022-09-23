@@ -2,10 +2,13 @@
   max-width: 720px; 
 }
 
-.round {
+.circular {
   border-radius: 50%
 }
 
+.round {
+  border-radius: 2%
+}
 .centered {
   text-align: center;
   display: block;
