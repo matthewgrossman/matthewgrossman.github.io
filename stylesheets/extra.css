@@ -6,6 +6,11 @@
   border-radius: 50%
 }
 
+img.icon {
+  height: 255px;
+  width: 255px;
+}
+
 .round {
   border-radius: 1%
 }
