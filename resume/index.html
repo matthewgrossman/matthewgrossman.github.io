@@ -61,7 +61,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#resume" class="md-skip">
+        <a href="#matthew-grossman" class="md-skip">
           Skip to content
         </a>
       
@@ -92,72 +92,77 @@
 
 
 <style>
-    .md-grid {
-      max-width: 960px;
+    <!-- .md-grid { -->
+    <!--   max-width: 960px; -->
+    <!-- } -->
+    * {
+      font-size: .72rem;
+    }
+    .md-typeset h1 {
+      margin: 0em;
     }
 </style>
-<h1 id="resume">Resume</h1>
-<p>TODO: write something high-level here</p>
-<hr />
+<h1 id="matthew-grossman">Matthew Grossman</h1>
 <h2 id="employment">Employment</h2>
-<h3 id="infra-tech-lead-developer-environments-lyft-2020-current"><strong>Infra Tech Lead, Developer Environments</strong> @ <a href="https://lyft.com">Lyft</a> <em>(2020 - Current)</em></h3>
+<h3 id="infra-tech-lead-developer-environments-lyft-2020-current">Infra Tech Lead, Developer Environments @ <a href="https://lyft.com">Lyft</a> <em>(2020 - Current)</em></h3>
 <blockquote>
 <p><em>Developer Environments</em> is a platform team focused on creating infrastucture and tooling to safely accelerate developer productivity.</p>
 </blockquote>
-<p>Led team of 5 eng through many successful launches by creating/aligning on a multi-year vision/roadmap, directly mentoring the ICs (levels 3-5), and negotiating ownership with x-team stakeholders (networking/deploys/obs/security). 
-Represented team in director reviews and 15+ presentations as I evangelized our dev product across the company.</p>
-<h4 id="e2e-testing-environment-revamp"><u>E2E Testing Environment Revamp</u></h4>
+<p>Led team of 5 eng through many successful launches by creating a multi-year roadmap, directly mentoring ICs (junior through senior), and negotiating ownership with cross-team stakeholders (networking/deploys/observability/security). 
+Represented team in director reviews and 15+ presentations as I evangelized our products across the company.</p>
+<h4 id="project-e2e-testing-environment-revamp">Project: <u>E2E Testing Environment Revamp</u></h4>
 <ul>
-<li>Led a multi-year effort to deprecate our existing E2E testing solution in favor of a more cost-efficient and productive dev environment. 
+<li>Led a multi-year effort to deprecate our existing E2E testing solution in favor of a more cost-efficient and productive developer environment. 
 Rather than giving each dev their own expensive EC2, we leverage our shared staging environment and dynamic routing to enable request-level isolation. </li>
-<li>Worked wherever I was needed, including jenkins/deploys, python/go/typescript libraries, networking, devtools, pair-programming, project updates, and much more.</li>
-<li>Read more about our work in my <a href="https://eng.lyft.com/scaling-productivity-on-microservices-at-lyft-part-3-extending-our-envoy-mesh-with-staging-fdaafafca82f">blog post</a>, or watch my presentation from <em>envoycon 2022</em> (<a href="https://www.youtube.com/watch?v=p9dYr23MVv0">recording</a>, <a href="https://envoyconna22.sched.com/event/1AO5k">abstract</a>, <a href="../assets/envoycon2022.pdf">slides</a>)</li>
+<li>Worked wherever I was needed, including python/go/typescript libraries, <a href="https://github.com/envoyproxy/envoy/pulls?q=is%3Apr+author%3Amatthewgrossman+">service mesh</a>, github hooks, local tools, pair-programming, project updates, and much more.</li>
+<li>Read more about our work in my <a href="https://eng.lyft.com/scaling-productivity-on-microservices-at-lyft-part-3-extending-our-envoy-mesh-with-staging-fdaafafca82f">blog post</a>, or watch my presentation from <em>envoycon 2022</em> (<a href="https://www.youtube.com/watch?v=p9dYr23MVv0">recording</a>, <a href="https://envoyconna22.sched.com/event/1AO5k">abstract</a>, <a href="../assets/envoycon2022.pdf">slides</a>).</li>
+<li><strong>Impact</strong>: Reduced infra spend by $170k/mo and lowered maintenance costs for all of infra.</li>
 </ul>
-<p><strong>Impact</strong>: Reduced infra spend by $170k/mo and lowered maintenance costs for all of infra.<br/>
-<strong>Skills</strong>: envoy, docker, kubernetes, the <a href="https://github.com/envoyproxy/envoy/pull/20645">smallest</a> <a href="https://github.com/envoyproxy/envoy/pull/12260">possible</a> amount of c++ I could get away with</p>
-<h4 id="distributed-tracing"><u>Distributed Tracing</u></h4>
+<h4 id="project-distributed-tracing">Project: <u>Distributed Tracing</u></h4>
 <ul>
-<li>TODO </li>
+<li>Led relaunch and migration of our distributed tracing system (<code>OpenTracing</code> -&gt; <code>OpenTelemetry</code>).</li>
+<li>Researched and met external vendors to evaluate cost/functionality tradeoffs, and worked with procurement to finalize commitments.</li>
+<li>Wrote python/go libraries, configured collector agents, surveyed engineers, and managed project status.</li>
+<li><strong>Impact</strong>: Provided developers an invaluable debugging tool while giving the business contractual flexibility with tracing providers.</li>
 </ul>
-<p><strong>Impact</strong>: TODO <br/>
-<strong>Skills</strong>: opentracing/opentelemetry, lightstep/X-Ray, procurement red tape</p>
-<hr />
-<h3 id="product-tech-lead-express-drive-lyft-2016-2020"><strong>Product Tech Lead, Express Drive</strong> @ <a href="https://lyft.com">Lyft</a> <em>(2016 - 2020)</em></h3>
+<h3 id="product-tech-lead-express-drive-lyft-2016-2020">Product Tech Lead, Express Drive @ <a href="https://lyft.com">Lyft</a> <em>(2016 - 2020)</em></h3>
 <blockquote>
 <p><em>Express Drive</em> is a product enabling drivers to rent vehicles through Lyft, creating a valuable supply lever for the business.</p>
 </blockquote>
 <p>Architected and led many customer-facing projects, working with data science, design, product, and operations to launch features.</p>
-<h4 id="volume-based-pricing"><u>Volume-Based Pricing</u></h4>
+<h4 id="project-volume-based-pricing">Project: <u>Volume-Based Pricing</u></h4>
 <ul>
 <li>To ensure insurance costs were attributed to high-mileage drivers, we created rentals plans that charged per-mile.
-I was the primary technical POC for integration efforts, ensuring multiple work streams (mobile, backend, frontend; 10+ eng) all were unblocked and convened for an on-time launch.</li>
+I was the primary technical lead for integration efforts, ensuring multiple work streams (mobile, backend, frontend; 10+ eng) all were unblocked and convened for an on-time launch.</li>
 <li>Led the creation of a high RPS service that subscribed to our fleet's telemetry events, and segmented miles driven in-app versus off-app.
 Architected this service from scratch, laying the groundwork for local development, databases, design patterns, and testing.</li>
+<li><strong>Impact</strong>: Financial reduction of $40/vehicle/wk (~5000 weekly vehicles at the time).</li>
 </ul>
-<p><strong>Impact</strong>: Financial reduction of $40/vehicle/wk (~5000 weekly vehicles at the time)<br/>
-<strong>Skills</strong>: python, flask, typescript, protobuffers, dynamodb, redis, EC2, bikeshedding</p>
-<h4 id="oncall-toil-reduction"><u>Oncall Toil Reduction</u></h4>
+<h4 id="project-oncall-toil-reduction">Project: <u>Oncall Toil Reduction</u></h4>
 <ul>
 <li>Worked with eng management to reduce burnout and improve velocity by tackling our out-of-control oncall rotation.
 Implemented Pagerduty alert tagging policy to ensure properly attributed pages.</li>
-<li>Identified and tactically solved select high-leverage issues (ex. flakey endpoints, underprovisioning)</li>
+<li>Identified and tactically solved select high-leverage issues (ex. flakey endpoints, underprovisioning).</li>
+<li><strong>Impact</strong>: Reduced number of oncall alerts from ~50/wk → ~5/wk.</li>
 </ul>
-<p><strong>Impact</strong>: Reduced number of oncall alerts from ~50/wk → ~5/wk <br/>
-<strong>Skills</strong>: SQL, Mode/Superset, GSheets, pagerduty API, nagging-slackbot setup</p>
-<hr />
-<h3 id="internships-2012-2016"><strong>Internships</strong> <em>(2012 - 2016)</em></h3>
+<h3 id="languages-and-technologies">Languages and Technologies</h3>
+<ul>
+<li><code>python</code>, <code>go</code> (familiarity with <code>typescript</code>, <code>c++</code>)</li>
+<li>docker, kubernetes, envoy, opentelemetry</li>
+<li>dynamodb, redis, protobuf</li>
+</ul>
+<h3 id="side-projects">Side projects</h3>
+<ul>
+<li><u><a href="https://github.com/matthewgrossman/dotfiles">dotfiles</a></u>: terminal emulators, neovim, and hammerspoon</li>
+<li><u><a href="https://mrgrossman.com">mrgrossman.com</a></u>: SSG <a href="https://squidfunk.github.io/mkdocs-material/">mkdocs-material</a>, used for this <a href="https://mrgrossman.com/resume">resume</a> as well</li>
+<li>homelab: ansible, raspberry pis, tailscale, docker-compose, and traefik</li>
+</ul>
+<h3 id="internships-2012-2016">Internships <em>(2012 - 2016)</em></h3>
 <ul>
 <li>Promoted Listings @ Etsy</li>
 <li>Unified Notifications @ Google</li>
 <li>iOS @ Facebook</li>
 </ul>
-<hr />
-<h3 id="side-projects"><strong>Side projects</strong></h3>
-<ul>
-<li><u><a href="https://github.com/matthewgrossman/dotfiles">dotfiles</a></u>: Talk to me about terminal emulators, neovim, and hammerspoon!</li>
-<li><u>homelab</u>: Talk to me about ansible, raspberry pis, tailscale, docker-compose, and traefik!</li>
-</ul>
-<hr />
 <h2 id="education">Education</h2>
 <h3 id="university-of-michigan-ann-arbor-2012-2016"><strong>University of Michigan - Ann Arbor</strong> <em>(2012 - 2016)</em></h3>
 <ul>
