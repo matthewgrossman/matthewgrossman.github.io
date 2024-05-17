@@ -1,0 +1,195 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+
+    
+      
+        <title>Resume - Matthew Grossman</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.6543a935.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#matthew-grossman" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+
+                  
+
+
+<style>
+    .md-grid {
+      max-width: 800px;
+    }
+    * {
+      font-size: .72rem;
+    }
+    .md-typeset h1 {
+      margin: 0em;
+    }
+    .md-typeset h2 {
+      margin: 0em;
+    }
+</style>
+<h1 id="matthew-grossman">Matthew Grossman</h1>
+<p>Staff Software Engineer |
+<a href="https://www.mrgrossman.com/">mrgrossman.com</a> | <a href="https://www.linkedin.com/in/matthewryangrossman/">linkedin</a> | <a href="https://github.com/matthewgrossman/">github</a></p>
+<h2 id="employment">Employment</h2>
+<h3 id="infra-tech-lead-developer-experience-lyft-2020-current">Infra Tech Lead, Developer Experience @ <a href="https://lyft.com">Lyft</a> <em>(2020 - Current)</em></h3>
+<blockquote>
+<p><em>Developer Experience</em> is a platform team focused on creating infrastucture and tooling to safely accelerate developer productivity.</p>
+</blockquote>
+<p>Led team of 5 eng through many successful launches by creating a multi-year roadmap, directly mentoring ICs (junior through senior), and negotiating ownership with cross-team stakeholders (networking/deploys/observability/security).
+Represented team in director reviews and 15+ presentations as I evangelized our products across the company.</p>
+<h4 id="project-e2e-testing-environment-revamp">Project: <u>E2E Testing Environment Revamp</u></h4>
+<ul>
+<li>Led a multi-year effort to deprecate our existing E2E testing solution in favor of a more cost-efficient and productive developer environment.
+Rather than giving each dev their own expensive EC2, we leveraged our shared staging environment and dynamic routing to enable request-level isolation.</li>
+<li>Worked wherever I was needed, including <code>python</code>/<code>go</code>/<code>typescript</code> libraries, <a href="https://github.com/envoyproxy/envoy/pulls?q=is%3Apr+author%3Amatthewgrossman+">service mesh</a>, github hooks, local tools, pair-programming, project updates, and much more.</li>
+<li>Read more about our work in my <a href="https://eng.lyft.com/scaling-productivity-on-microservices-at-lyft-part-3-extending-our-envoy-mesh-with-staging-fdaafafca82f">blog post</a>, or watch my presentation from <em>EnvoyCon 2022</em> (<a href="https://www.youtube.com/watch?v=p9dYr23MVv0">recording</a>, <a href="https://envoyconna22.sched.com/event/1AO5k">abstract</a>, <a href="../assets/envoycon2022.pdf">slides</a>).</li>
+<li><strong>Impact</strong>: Reduced infra spend by $170k/mo and lowered maintenance costs for all of infra.</li>
+</ul>
+<h4 id="project-distributed-tracing">Project: <u>Distributed Tracing</u></h4>
+<ul>
+<li>Led relaunch and migration of our distributed tracing system (<code>OpenTracing</code> -&gt; <code>OpenTelemetry</code>).</li>
+<li>Researched and met external vendors to evaluate cost/functionality tradeoffs, and worked with procurement to finalize commitments.</li>
+<li>Wrote python/go libraries, configured collector agents, surveyed engineers, and managed project status.</li>
+<li><strong>Impact</strong>: Provided developers an invaluable debugging tool while giving the business contractual flexibility with tracing providers.</li>
+</ul>
+<h3 id="product-tech-lead-express-drive-lyft-2016-2020">Product Tech Lead, Express Drive @ <a href="https://lyft.com">Lyft</a> <em>(2016 - 2020)</em></h3>
+<blockquote>
+<p><em>Express Drive</em> is a product enabling drivers to rent vehicles through Lyft, creating a valuable supply lever for the business.</p>
+</blockquote>
+<p>Architected and led many customer-facing projects, working with data science, design, product, and operations to launch features.</p>
+<h4 id="project-volume-based-pricing">Project: <u>Volume-Based Pricing</u></h4>
+<ul>
+<li>To ensure insurance costs were attributed to high-mileage drivers, we created rentals plans that charged per-mile.
+I was the primary technical lead for integration efforts, ensuring multiple work streams (mobile, backend, frontend; 10+ eng) all were unblocked and convened for an on-time launch.</li>
+<li>Led the creation of a high RPS service that subscribed to our fleet's telemetry events, and segmented miles driven in-app versus off-app.
+Architected this service from scratch, laying the groundwork for local development, databases, design patterns, and testing.</li>
+<li><strong>Impact</strong>: Financial reduction of $40/vehicle/wk (~5000 weekly vehicles at the time).</li>
+</ul>
+<h4 id="project-oncall-toil-reduction">Project: <u>Oncall Toil Reduction</u></h4>
+<ul>
+<li>Worked with eng management to reduce burnout and improve velocity by tackling our out-of-control oncall rotation.
+Implemented Pagerduty alert tagging policy to ensure properly attributed pages.</li>
+<li>Identified and tactically solved select high-leverage issues (ex. flakey endpoints, underprovisioning).</li>
+<li><strong>Impact</strong>: Reduced number of oncall alerts from ~50/wk → ~5/wk.</li>
+</ul>
+<h3 id="languages-and-technologies">Languages and Technologies</h3>
+<ul>
+<li><code>python</code>, <code>go</code></li>
+<li>docker, kubernetes, envoy, opentelemetry</li>
+<li>dynamodb, redis, protobuf</li>
+</ul>
+<h3 id="side-projects">Side projects</h3>
+<ul>
+<li><u><a href="https://github.com/matthewgrossman/dotfiles">dotfiles</a></u>: terminal emulators, neovim, and hammerspoon</li>
+<li><u><a href="https://github.com/matthewgrossman/website">mrgrossman.com</a></u>: SSG <a href="https://squidfunk.github.io/mkdocs-material/">mkdocs-material</a>, used for this <a href="https://mrgrossman.com/resume">resume</a> as well</li>
+<li>homelab: ansible, raspberry pis, tailscale, docker-compose, and traefik</li>
+</ul>
+<h3 id="internships-2012-2016">Internships <em>(2012 - 2016)</em></h3>
+<ul>
+<li>Promoted Listings @ Etsy</li>
+<li>Unified Notifications @ Google</li>
+<li>iOS @ Facebook</li>
+</ul>
+<h2 id="education">Education</h2>
+<h3 id="university-of-michigan-ann-arbor-2012-2016"><strong>University of Michigan - Ann Arbor</strong> <em>(2012 - 2016)</em></h3>
+<ul>
+<li>3.93 GPA – BSE in Computer Science and Engineering, Class of 2016</li>
+<li>Dean’s List; 2012 - 2016</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+
+    
+
+  </body>
+</html>

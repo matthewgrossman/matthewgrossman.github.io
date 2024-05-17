@@ -1,0 +1,87 @@
+/* most css taken from https://jgthms.com/web-design-in-4-minutes/ */
+
+.icon {
+    width: 1em;
+    height:1em;
+    padding: .25em;
+    vertical-align: -.140em;
+    fill: currentColor;
+    color: white;
+}
+img {
+  border-radius: 50%;
+  text-align: center;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+main {
+    margin: 0 auto;
+    max-width: 50rem;
+    line-height: 1.5;
+    padding: 4rem 1rem;
+}
+
+main a {
+    color: #e81c4f;
+}
+
+header a {
+    font-size: 3rem;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+header ul {
+    padding: 0;
+    margin-bottom: 0;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+header {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #333;
+  padding: 1rem;
+  text-align: center;
+}
+
+header img {
+  background-size: cover;
+  width: 16rem;
+  height: 16rem;
+  border-radius: 50%;
+}
+
+header h1 {
+    letter-spacing: .5rem;
+    font-weight: bolder;
+}
+
+header h1,
+header h4 {
+    font-family: sans-serif;
+    color: white;
+}
+
+code,
+pre {
+  background: #eee;
+}
+
+code {
+  padding: 2px 4px;
+  vertical-align: text-bottom;
+}
+
+pre {
+  padding: 1rem;
+  border-left: 2px solid #69c;
+  border-bottom: 1px solid #d8dee9;
+}
